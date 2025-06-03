@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dynamic To-Do List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header>
+    <h1>Dynamic To-Do List</h1>
+    <input type="text" id="searchBar" placeholder="Search tasks" />
+</header>
 
+<main>
+    <div class="task-container">
+        <input type="text" id="taskInput" placeholder="Add a new task" />
+        <button id="addTaskButton">Add Task</button>
+    </div>
+
+    <ul id="taskList"></ul>
+</main>
+
+<footer>
+    <p id="taskCount"></p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
